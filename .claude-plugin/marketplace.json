@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "cc-ds",
+  "description": "DeepSeek balance & cache hit rate statusline for Claude Code",
+  "owner": { "name": "kira4094" },
+  "plugins": [
+    {
+      "name": "cc-ds",
+      "description": "DeepSeek balance & cache hit rate in your status bar",
+      "source": "./plugin",
+      "category": "productivity"
+    }
+  ]
+}
