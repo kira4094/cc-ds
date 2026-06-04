@@ -1,0 +1,8 @@
+{
+  "name": "cc-ds",
+  "version": "v0.0.1(00000000.0000)",
+  "description": "DeepSeek balance & cache hit rate statusline for Claude Code",
+  "author": { "name": "kira4094" },
+  "repository": "https://github.com/kira4094/cc-ds",
+  "license": "MIT"
+}
