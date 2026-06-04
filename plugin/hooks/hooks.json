@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "Setup": [{
+      "matcher": "*",
+      "hooks": [{ "type": "command", "shell": "bash", "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/register-statusline.cjs\"", "timeout": 5 }]
+    }],
+    "SessionStart": [{
+      "matcher": "*",
+      "hooks": [{ "type": "command", "shell": "bash", "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/register-statusline.cjs\"", "async": true, "timeout": 5 }]
+    }]
+  }
+}

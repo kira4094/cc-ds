@@ -1,8 +1,13 @@
 {
   "name": "cc-ds",
-  "version": "v0.0.1(00000000.0000)",
+  "version": "v0.0.1(20260604.1436)",
   "description": "DeepSeek balance & cache hit rate statusline for Claude Code",
-  "author": { "name": "kira4094" },
+  "author": {
+    "name": "kira4094"
+  },
   "repository": "https://github.com/kira4094/cc-ds",
-  "license": "MIT"
+  "license": "MIT",
+  "commands": [
+    "./plugin/skills/cc-ds-status/SKILL.md"
+  ]
 }
