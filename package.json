@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "DeepSeek balance & cache hit rate statusline for Claude Code",
   "license": "MIT",
   "author": "kira4094",
@@ -21,6 +21,7 @@
     "LICENSE"
   ],
   "scripts": {
+    "prepublishOnly": "node scripts/update-version.cjs && node -e \"var v=require('./version.json'),p=require('./package.json');p.version=v.version;require('fs').writeFileSync('package.json',JSON.stringify(p,null,2)+'\\n')\"",
     "postinstall": "node -e \"console.log('[cc-ds] installed! Run: cc-ds install')\""
   },
   "keywords": [
