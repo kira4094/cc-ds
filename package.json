@@ -7,6 +7,11 @@
   "description": "DeepSeek balance & cache hit rate statusline for Claude Code",
   "license": "MIT",
   "author": "kira4094",
+  "homepage": "https://github.com/kira4094/cc-ds",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kira4094/cc-ds.git"
+  },
   "bin": {
     "cc-ds": "cli.js"
   },

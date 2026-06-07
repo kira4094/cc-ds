@@ -1,5 +1,7 @@
 # cc-ds
 
+[![GitHub stars](https://img.shields.io/github/stars/kira4094/cc-ds?style=social)](https://github.com/kira4094/cc-ds) <sub>⭐ Star us on GitHub!</sub>
+
 **DeepSeek balance & cache hit rate statusline for Claude Code.**
 
 Displays real-time DeepSeek account balance and cache hit rate in the CC status bar.
