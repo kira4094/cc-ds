@@ -1,0 +1,27 @@
+{
+  "name": "cc-ds",
+  "version": "0.1.0",
+  "description": "DeepSeek balance & cache hit rate statusline for Claude Code",
+  "license": "MIT",
+  "author": "kira4094",
+  "bin": {
+    "cc-ds": "cli.js"
+  },
+  "files": [
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "postinstall": "node -e \"console.log('[cc-ds] installed! Run: cc-ds install')\""
+  },
+  "keywords": [
+    "claude-code",
+    "deepseek",
+    "statusline",
+    "hud"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
