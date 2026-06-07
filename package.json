@@ -1,5 +1,8 @@
 {
-  "name": "cc-ds",
+  "name": "@kira4094/cc-ds",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.1.0",
   "description": "DeepSeek balance & cache hit rate statusline for Claude Code",
   "license": "MIT",

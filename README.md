@@ -27,7 +27,7 @@ Restart Claude Code. That's it.
 ### Option 2: npm install
 
 ```bash
-npm install -g cc-ds
+npm install -g @kira4094/cc-ds
 cc-ds install
 ```
 
