@@ -1,6 +1,6 @@
 {
   "name": "cc-ds",
-  "version": "v0.1.0(20260607.1206)",
+  "version": "v0.1.0(20260607.1209)",
   "description": "DeepSeek balance & cache hit rate statusline for Claude Code",
   "author": {
     "name": "kira4094"
